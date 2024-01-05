@@ -5,11 +5,9 @@ These tests are implemented using Playwright and the pytest testing frameworks.
 Additionally, the project integrates Allure reports, with the results showcased on GitHub Pages.
 
 ## Requirements
-Before running or contributing to this project, ensure that you have the necessary dependencies installed. 
+Before running or contributing to this project, ensure that you have the necessary dependencies installed.
 
-### Python 
-
-- You can download Python from [python.org](https://www.python.org/downloads/).
+- Download Python from [python.org](https://www.python.org/downloads/).
 
 ## Steps to install
 Follow these steps to set up and run the project on your local machine:
@@ -27,6 +25,7 @@ Install the required Python packages by running:
 
 ```bash
 pip install -r requirements.txt
+playwright install chromium
 ```
 
 ### 3. Upgrade pip (Optional but Recommended)
@@ -48,7 +47,7 @@ To run one particular test:
 pytest -k <name of the test>
 ```
 
-## Generate allure report
+## Steps to generate report
 1. Run the command:
 ```bash
   pytest --alluredir=./reports
