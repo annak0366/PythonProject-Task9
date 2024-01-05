@@ -18,12 +18,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pipenv
-        pipenv install
-        pipenv install --dev pytest
-        pipenv install allure-pytest
-        pipenv install playwright
-        pipenv run playwright install
+        pip install -r requirements.txt
 
     - name: Run Tests
       run: |
