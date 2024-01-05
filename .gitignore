@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+allure-report/
+allure-results/
+reports/
+.vscode/
+.idea/
+Pipfile
+Pipfile.lock
