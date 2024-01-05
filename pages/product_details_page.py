@@ -9,7 +9,7 @@ class DetailsPage:
         self.__view_cart_btn = self.page.locator('a[href="/view_cart"] u')
 
     def change_quantity_to_4(self):
-        self.__quantity_box.wait_for_selector_state('visible')
+        #self.__quantity_box.wait_for_selector_state('visible')
         self.__quantity_box.fill('4')
 
     def click_add_to_cart(self):
