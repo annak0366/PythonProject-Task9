@@ -21,6 +21,8 @@ jobs:
         pip install pipenv
         pipenv install
         pipenv install --dev pytest
+        pipenv install allure-pytest
+
 
     - name: Run Tests
       run: |
