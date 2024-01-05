@@ -20,7 +20,7 @@ class HomePage:
         self.__category_panel = self.page.locator('div[id="accordian"]')
         self.__women_category = self.page.locator('a[href="#Women"]')
         self.__women_subcategory = self.page.locator('a[href="/category_products/1"]')
-        self.__category_text = self.page.locator("//h2[@class='title text-center']")
+        self.__category_text = self.page.locator(".title.text-center")
         self.__men_category = self.page.locator('a[href="#Men"]')
         self.__men_subcategory = self.page.locator('a[href="/category_products/3"]')
 
