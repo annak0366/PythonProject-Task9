@@ -53,7 +53,7 @@ pytest -k <name of the test>
   pytest --alluredir=./reports
 ```
 
-2. To see generated reports run the command:
+2. To see generated reports - run the command:
 ```bash
     allure serve ./reports
 ``` 
